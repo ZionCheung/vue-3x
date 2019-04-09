@@ -2,7 +2,9 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './route/index'
 import store from './store/index'
+import api from './api'
 
+Vue.prototype.$api = api
 Vue.config.productionTip = false
 
 new Vue({
