@@ -1,8 +1,12 @@
 <template>
   <div id="app">
+    <h1>这是前端</h1>
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
+    </div>
+    <div>
+      <router-view name="About"></router-view>
     </div>
     <router-view/>
   </div>
